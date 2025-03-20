@@ -1,0 +1,47 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: white;
+}
+
+.content {
+  max-width: 600px;
+  padding: 20px;
+}
+
+.date {
+  color: red;
+  font-size: 14px;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.description {
+  font-size: 16px;
+  color: gray;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  background-color: #e91e63;
+  color: white;
+  padding: 15px;
+  width: 100%;
+}
+
+.stat span {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+
